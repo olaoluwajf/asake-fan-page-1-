@@ -29,7 +29,6 @@ export default function Album() {
             {album.year} · {album.trackCount} tracks
           </p>
           <h1 className="mt-2 text-huge font-medium tracking-tight">{album.title}</h1>
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-graphite">{album.description}</p>
 
           {tracklist.length > 0 && (
             <div className="mt-12">

@@ -1,5 +1,12 @@
 import { Play } from 'lucide-react'
-import type { VideoItem } from '../data/videos'
+
+type VideoItem = {
+  title: string
+  project: string
+  year: number
+  thumbnail: string
+  size: 'lg' | 'md' | 'sm'
+}
 
 const spanClasses: Record<VideoItem['size'], string> = {
   lg: 'md:col-span-2 md:row-span-2 aspect-[4/3] md:aspect-auto',

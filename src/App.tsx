@@ -8,7 +8,6 @@ import ScrollProgress from './components/ScrollProgress'
 import Home from './pages/Home'
 import Music from './pages/Music'
 import Album from './pages/Album'
-import Videos from './pages/Videos'
 import GalleryPage from './pages/Gallery'
 import About from './pages/About'
 
@@ -33,7 +32,6 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/music" element={<Music />} />
           <Route path="/music/:albumId" element={<Album />} />
-          <Route path="/videos" element={<Videos />} />
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/about" element={<About />} />
         </Routes>
